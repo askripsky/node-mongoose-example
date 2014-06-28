@@ -1,7 +1,7 @@
 var should = require('chai').should()
     , proxyquire = require('proxyquire')
     , mongoose = require('mongoose')
-    , mockgoose = require('Mockgoose');
+    , mockgoose = require('mockgoose');
 
 mockgoose(mongoose);
 
